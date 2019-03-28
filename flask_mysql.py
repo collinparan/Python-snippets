@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from flask import Flask, request, redirect, Response, jsonify
 from flasgger import Swagger
 import mysql.connector
